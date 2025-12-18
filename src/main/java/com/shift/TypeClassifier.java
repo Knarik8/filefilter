@@ -20,7 +20,7 @@ public final class TypeClassifier {
         }
         try {
             Double.parseDouble(s);
-            return true; // получилось распарсить как double → float
+            return true;
         } catch (NumberFormatException e) {
             return false;
         }
